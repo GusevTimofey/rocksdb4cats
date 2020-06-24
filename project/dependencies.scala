@@ -26,4 +26,6 @@ object dependencies {
     "ru.tinkoff" %% "tofu-logging-layout" % versions.tofu
   )
 
+  val tests = List("org.specs2" %% "specs2-core" % versions.specs2 % Test)
+
 }

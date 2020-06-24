@@ -51,7 +51,7 @@ lazy val core =
     .withId("core")
     .settings(moduleName := "rdb4catsCore", name := "rdb4catsCore")
     .settings(settings)
-    .settings(libraryDependencies ++= cats ++ rocksDb ++ newtype ++ tofu)
+    .settings(libraryDependencies ++= cats ++ rocksDb ++ newtype ++ tofu ++ tests)
 
 lazy val demo =
   project
