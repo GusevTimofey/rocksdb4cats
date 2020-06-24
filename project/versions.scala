@@ -5,5 +5,5 @@ object versions {
   val mouse      = "0.25"
   val refined    = "0.9.14"
   val newtype    = "0.4.4"
-  val tofu                       = "0.7.7"
+  val tofu       = "0.7.7"
 }

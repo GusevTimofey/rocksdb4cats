@@ -1,8 +1,8 @@
-package com.github.timofeyGusev.core
+package com.github.gusev.core
 
 import cats.effect.{Resource, Sync}
 import cats.syntax.flatMap._
-import com.github.timofeyGusev.syntax.resource._
+import com.github.gusev.syntax.resource._
 import org.rocksdb.{ReadOptions, WriteBatch, WriteOptions, RocksDB => RDB}
 
 trait DBOps[F[_]] {

@@ -1,11 +1,8 @@
-package com.github.timofeyGusev.syntax
+package com.github.gusev.syntax
 
 import cats.Applicative
 import cats.effect.{Resource, Sync}
-import com.github.timofeyGusev.syntax.ResourceSyntax.{
-  AutoClosableResourceOps,
-  ResourceOps
-}
+import com.github.gusev.syntax.ResourceSyntax.{AutoClosableResourceOps, ResourceOps}
 
 trait ResourceSyntax {
 

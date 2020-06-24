@@ -1,4 +1,4 @@
-package com.github.timofeyGusev.core
+package com.github.gusev.core
 
 object errors {
 

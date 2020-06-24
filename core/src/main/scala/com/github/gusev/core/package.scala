@@ -1,4 +1,4 @@
-package com.github.timofeyGusev
+package com.github.gusev
 
 import io.estatico.newtype.macros.newtype
 

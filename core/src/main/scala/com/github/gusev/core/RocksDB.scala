@@ -1,4 +1,4 @@
-package com.github.timofeyGusev.core
+package com.github.gusev.core
 
 import cats.Monad
 import cats.data.NonEmptyList
@@ -9,9 +9,9 @@ import cats.syntax.flatMap._
 import cats.syntax.functor._
 import cats.syntax.option._
 import cats.syntax.traverse._
-import com.github.timofeyGusev.core.env.HasTraceId
-import com.github.timofeyGusev.core.errors.{CoreError, RDBOpErr}
-import com.github.timofeyGusev.syntax.resource._
+import com.github.gusev.core.env.HasTraceId
+import com.github.gusev.core.errors.{CoreError, RDBOpErr}
+import com.github.gusev.syntax.resource._
 import derevo.derive
 import org.rocksdb.{Options, RocksDB => RDB}
 import tofu.higherKind.Mid
